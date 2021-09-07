@@ -41,6 +41,7 @@ export const Register: React.FC<registerProps> = ({}) => {
 							/>
 						</Box>
 						<Button
+							w="full"
 							mt={4}
 							colorScheme="teal"
 							isLoading={isSubmitting}
